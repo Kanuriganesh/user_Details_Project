@@ -1,0 +1,67 @@
+/* index.css */
+.user-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .user-details-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 25px 30px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-name {
+    text-align: center;
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .user-info p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .user-info p strong {
+    color: #555;
+  }
+  
+  .user-info a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .user-info a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .user-details-card {
+      padding: 20px;
+    }
+  
+    .user-name {
+      font-size: 20px;
+    }
+  
+    .user-info p {
+      font-size: 14px;
+    }
+  }
+  
